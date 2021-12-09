@@ -1,0 +1,65 @@
+% Paper and Font Formatting
+\documentclass[a4paper,12pt]{article}
+\usepackage{times}
+\usepackage[margin=1in]{geometry}
+
+% Bibliography Formatting - Harvard Style
+\usepackage{natbib}
+
+% Section and Space Formatting
+\usepackage{sectsty}
+\usepackage{indentfirst}
+\usepackage{setspace}
+\doublespacing{}
+\sectionfont{\fontsize{12}{15}\selectfont}
+
+\begin{document}
+\begin{titlepage}
+   \begin{center}
+        University of the Philippines - Cebu\\
+        \vspace{8cm}
+       Deep Learning Model on Real-time\\ Face Mask Detection
+       \vspace{8cm}\\
+       Fayne Roxenne A. Bagaipo\\
+       Prof. Dhong Fhel K. Gom-os\\
+       Word count: 1219\\
+       December 10, 2021
+            
+   \end{center}
+\end{titlepage}
+
+\section{Introduction}
+Deep learning is composed of three or more neuron layers and is also a subset of machine learning. It is an attempt to copy the workaround of a human brain, able to cluster data and predict outcomes with incredible accuracy \citep{IBMCloudEduc}. To be more accustomed to their differences, let’s look at the definition of traditional programming, machine learning, and deep learning. Regular/Traditional Programming is where users give computers explicit instructions using several programming languages to describe exactly how they want things to work. Machine Learning is learning from statistics. We program the machine to look at large amounts of data and then make guesses from the data. The results in this are proportional to how much data is you have and what features you have implemented. Deep Learning is where you make the computer learn from the data without knowing what features are going to be important.
+
+As of early 2019, a deadly pandemic struck several countries deeming people’s normal ways of living dangerous in fear of contracting COVID-19 the virus. Everyone around the world is instructed to wear face masks as a way of preventing the contraction of the mentioned virus. Almost two years have gone by and yet the situation seems to not have dwindled as much in terms of new cases of infections and deaths pertaining to the virus. In line with this, our only best option is to opt for vaccination, social distance, and wear our face masks when out in public. There are proven results as to how wearing a mask has a very low risk of spread compared to those who do not.
+
+In public crowded places such as malls, groceries, airports, and other establishments, certain security protocols are observed. Security and sanitation patrols may need to constantly remind people to wear their masks which can prove tedious at times. Having said this, instead of increasing the burden of frontliners and further risk of exposure, adapting to this new normal can be made easier using technological advancements. Methods of deep learning is extremely useful in this regard as we can instruct it to learn from a given dataset of people who put on face masks as a means of protection and people who don’t. From the dataset, the computer will be trained to differentiate people who are wearing their masks from the people who are not wearing them. This method will also be implemented in real time using OpenCV to perform these computer vision tasks. The use of MobileNetV2 also allows a cheaper and lightweight alternative to the other more expensive deep learning methods available.
+
+In a world where living in the pandemic is the new norm, observations made in this study include: (a) Importance of face masks as means of prevention during the virus pandemic; (b) Manual inspection of the public on whether they are abiding to the usage of face masks is too laborious; (c) Implementing a face mask detection in real-time with the use of deep learning methods whilst also choosing cost-efficient tools.
+
+\newpage
+\section{Analysis and Discussion}
+There have been several deep learning adaptations on face detection and recognition. It has evolved to a certain point where it is now used for security and privacy measures. A variety of these DL methods have reduced the detection accuracy and computational time, therefore allowing even more potential breakthroughs for automated image processing applications. As of the COVID-19 outbreak, these deep learning adaptations on face detection have evolved to cater to the detection of people wearing masks. Therefore, needing further discussion on the literature regarding machine learning based methods for detecting faces and detection of face masks.
+
+A paper on this by \cite{LOEY2021108288}, developed an identification method able to categorize three conditions for wearing a mask: masked, improperly masked, and unmasked. Their proposed model had two components using ResNet50, a deep transfer learning model and a Support Vector Machine (SVM), a classical supervised algorithm. In the paper, the performance used three traditional classifiers for model improvement (SVM, Decision Tree, and Ensemble classifiers. The results showed that the SVM classifier outperformed with the least training time consumed for all three datasets, achieving a 99.64\% (RMFD), 99.49\% (SMFD), and a 100\% (LFW) accuracy.
+
+For \cite{nagrath2021ssdmnv2}, an SSDMNV2 model was designed using Tensorflow and Keras libraries, MobileNetV2 architecture as a classifier framework, Single Shot Multibox Detector as their detector and OpenCV DNN. Their use of multibox allowed for multiple objects to be captured in one shot making it comparable to the technique of another deep learning method, YOLO giving it a faster speed and higher accuracy. The technique deployed gave a score of 92.64\%.
+
+Meanwhile, \cite{qin2020identifying} developed a new face mask wearing condition identification method called SRCNet, that combines classification networks and image super-resolution. The method consists of an algorithm with four main steps for pre-processing of the image, cropping and detection of the face, and the condition identification. The SRCNet study outperformed other conventional deep learning image classification methods, achieving a 98.70\% detection accuracy.
+
+A paper from \cite{hussain2020real}, proposed a facial detection and recognition model to identify facial features and authenticate them. Three different phases were implemented in a sequential process, a human face is detected in the first phase, the input captured is then brought to the second phase to be analyzed on the existing features with the support of a Keras CNN model. In the last phase, the face undergoes authentication and classified on whether it is projecting a certain emotion. These three objective models were validated and designed with an accuracy of 88\%.
+
+Another paper from \cite{LOEY2021102600}) conducted a deep learning algorithm for detecting masks using YOLO-v2 with the use of a ResNet50 model to achieve high results on discernment. It follows the transfer learning as the first paper for employing a feature extraction process based on ResNet50 but detection on face mask was employed using YOLO-v2. An average precision of 81\% was shown using this model.
+
+Similarly, \cite{li2020face} proposed the use of YOLO-v3 for better speed and accuracy on object detection. However, when used on face detection, several problems came to light such as the detection of smaller faces. To adapt, a loss function, Softmax was chosen instead in maximizing the segregation of inter-class features, and which also helped in decreasing the features in dimension to improve speed. YOLO-v3 proved to perform better than other existing techniques while maintaining speed and accuracy.
+
+Furthermore, \cite{wang2020masked} proposed datasets with masked faces for three types: MFDD, RMRFD, and SMFD. These datasets were done for the improvement of detecting face masks using deep learning methods. From the three datasets, the RFMRD achieved a 95\% accuracy.
+
+\newpage
+\section{Conclusion}
+Among the literature presented regarding detection of faces and detection of face masks, several key concerns such as optimization issues, data heavy applications, and energy inefficiency are involved but the usage of varying deep learning methods allowed for comparability in speed, precision, and accuracy.  Apart from this, the design and deployment of sturdy models on deep learning are factors in the enhancement of mask detection accuracy on publicly available datasets and in real-time. The proposal of a lightweight and cost-effective model for automatic or real-time detection in times of COVID-19 safety purposes will be employed.
+
+\newpage
+\bibliographystyle{agsm}
+\bibliography{biblio}
+\end{document}

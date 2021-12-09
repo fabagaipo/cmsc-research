@@ -1,0 +1,56 @@
+\begin{thebibliography}{xx}
+
+\harvarditem{Education}{2020}{IBMCloudEduc}
+Education, I.~C.  \harvardyearleft 2020\harvardyearright , `What is deep
+  learning?'.
+\newline\harvardurl{https://www.ibm.com/cloud/learn/deep-learning}
+
+\harvarditem{Hussain \harvardand\ Al~Balushi}{2020}{hussain2020real}
+Hussain, S.~A. \harvardand\ Al~Balushi, A. S.~A.  \harvardyearleft
+  2020\harvardyearright , A real time face emotion classification and
+  recognition using deep learning model, {\em in} `Journal of Physics:
+  Conference Series', Vol. 1432, IOP Publishing, p.~012087.
+
+\harvarditem[Li et~al.]{Li, Wang, Li \harvardand\ Fei}{2020}{li2020face}
+Li, C., Wang, R., Li, J. \harvardand\ Fei, L.  \harvardyearleft
+  2020\harvardyearright , Face detection based on yolov3, {\em in} `Recent
+  Trends in Intelligent Computing, Communication and Devices', Springer,
+  pp.~277--284.
+
+\harvarditem[Loey et~al.]{Loey, Manogaran, Taha \harvardand\ Khalifa}{2021{\em
+  a}}{LOEY2021102600}
+Loey, M., Manogaran, G., Taha, M. H.~N. \harvardand\ Khalifa, N. E.~M.
+  \harvardyearleft 2021{\em a}\harvardyearright , `Fighting against covid-19: A
+  novel deep learning model based on yolo-v2 with resnet-50 for medical face
+  mask detection', {\em Sustainable Cities and Society} {\bf 65},~102600.
+\newline\harvardurl{https://www.sciencedirect.com/science/article/pii/S2210670720308179}
+
+\harvarditem[Loey et~al.]{Loey, Manogaran, Taha \harvardand\ Khalifa}{2021{\em
+  b}}{LOEY2021108288}
+Loey, M., Manogaran, G., Taha, M. H.~N. \harvardand\ Khalifa, N. E.~M.
+  \harvardyearleft 2021{\em b}\harvardyearright , `A hybrid deep transfer
+  learning model with machine learning methods for face mask detection in the
+  era of the covid-19 pandemic', {\em Measurement} {\bf 167},~108288.
+\newline\harvardurl{https://www.sciencedirect.com/science/article/pii/S0263224120308289}
+
+\harvarditem[Nagrath et~al.]{Nagrath, Jain, Madan, Arora, Kataria \harvardand\
+  Hemanth}{2021}{nagrath2021ssdmnv2}
+Nagrath, P., Jain, R., Madan, A., Arora, R., Kataria, P. \harvardand\ Hemanth,
+  J.  \harvardyearleft 2021\harvardyearright , `Ssdmnv2: A real time dnn-based
+  face mask detection system using single shot multibox detector and
+  mobilenetv2', {\em Sustainable cities and society} {\bf 66},~102692.
+
+\harvarditem{Qin \harvardand\ Li}{2020}{qin2020identifying}
+Qin, B. \harvardand\ Li, D.  \harvardyearleft 2020\harvardyearright ,
+  `Identifying facemask-wearing condition using image super-resolution with
+  classification network to prevent covid-19', {\em Sensors} {\bf
+  20}(18),~5236.
+
+\harvarditem[Wang et~al.]{Wang, Wang, Huang, Xiong, Hong, Wu, Yi, Jiang, Wang,
+  Pei et~al.}{2020}{wang2020masked}
+Wang, Z., Wang, G., Huang, B., Xiong, Z., Hong, Q., Wu, H., Yi, P., Jiang, K.,
+  Wang, N., Pei, Y. et~al.  \harvardyearleft 2020\harvardyearright , `Masked
+  face recognition dataset and application', {\em arXiv preprint
+  arXiv:2003.09093} .
+
+\end{thebibliography}

@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: litreview.aux
+Reallocating 'name_of_file' (item size: 1) to 5 items.
+The style file: agsm.bst
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+Database file #1: biblio.bib
+I was expecting a `,' or a `}'---line 14 of file biblio.bib
+ : 
+ : @article{LOEY2021102600,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "IBMCloudEduc" isn't style-file defined
+--line 76 of file biblio.bib
+Warning--can't use both volume and number fields in hussain2020real
+You've used 8 entries,
+            2909 wiz_defined-function locations,
+            692 strings with 6593 characters,
+and the built_in function-call counts, 45560 in all, are:
+= -- 7387
+> -- 762
+< -- 1
++ -- 3659
+- -- 238
+* -- 4062
+:= -- 8967
+add.period$ -- 8
+call.type$ -- 8
+change.case$ -- 112
+chr.to.int$ -- 7
+cite$ -- 9
+duplicate$ -- 145
+empty$ -- 276
+format.name$ -- 267
+if$ -- 8203
+int.to.chr$ -- 6
+int.to.str$ -- 0
+missing$ -- 7
+newline$ -- 30
+num.names$ -- 85
+pop$ -- 33
+preamble$ -- 1
+purify$ -- 120
+quote$ -- 0
+skip$ -- 132
+stack$ -- 0
+substring$ -- 10557
+swap$ -- 41
+text.length$ -- 113
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 32
+warning$ -- 1
+while$ -- 176
+width$ -- 0
+write$ -- 115
+(There was 1 error message)
